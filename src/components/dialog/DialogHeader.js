@@ -22,8 +22,8 @@ const DialogHeader = ({ title = 'Header', children, close, customClass }) => (
 DialogHeader.propTypes = {
   title: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   children: PropTypes.node,
-  onClick: PropTypes.func,
-  customIconClass: PropTypes.string,
+  close: PropTypes.func,
+  customClass: PropTypes.string,
 }
 
 export default DialogHeader
